@@ -1,7 +1,5 @@
-version: 2026.232.0520
 plugin-example-builder:
     candy:
-        version: 2026.175.0716
         description: |-
             Reference OUT-OF-TREE charly plugin proving the BUILD-TIME plugin-execution
             BUILDER leg — a standalone Go module (go.mod + main.go) serving the
