@@ -23,7 +23,13 @@ The plugin is a standalone Go module (importable provider package plus a
 
 ## How to use it
 
-Compose the plugin candy, then select it as a candy's external builder:
+Compose the plugin candy in a box or check bed's `candy:` list:
+
+```yaml
+- '@github.com/opencharly/plugin-example-builder/candy/plugin-example-builder:<tag>'
+```
+
+Then select it as a candy's external builder:
 
 ```yaml
 # in the consuming candy:
